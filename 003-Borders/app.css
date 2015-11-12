@@ -3,3 +3,21 @@ img {
 }
 
 /* Code Under This Line */
+div:nth-last-of-type(4) {
+  border: 10px solid red;
+}
+
+div:nth-last-of-type(3) {
+  border: 10px dashed blue;
+}
+
+div:nth-last-of-type(2) {
+  border-left: 10px solid green;
+}
+
+div:nth-last-of-type(1) {
+  border-left: 10px solid blue;
+  border-right: 10px solid blue;
+  border-top: 10px solid red;
+  border-bottom: 10px solid red;
+}
