@@ -12,10 +12,12 @@ img {
   width: 100%;
 }
 
+
 div {
   background: white;
   color: #222;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .column {
