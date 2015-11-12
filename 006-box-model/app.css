@@ -8,3 +8,28 @@ img {
   max-width: 100%;
 }
 /* Code Under This Line */
+
+.box-model {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.a {
+  background-color: #ffed5d;
+  padding: 20px;
+}
+
+.b {
+  background-color: #ff7050;
+  padding: 20px;
+}
+
+.c {
+  background-color: #222222;
+  padding: 20px;
+}
+
+.d {
+  background-color: #7bbade;
+  padding: 20px;
+}
