@@ -14,8 +14,6 @@ body {
 div {
   color: #7BBADE;
   background: #222;
-  border-left: 1px solid white;
-  padding: 5px;
 }
 
 h2 {
@@ -31,4 +29,47 @@ h3 {
   background: #222;
 }
 
+p {
+  padding: 20px;
+}
+
 /* Code Under This Line */
+.wrapper {
+  width: 96%;
+  margin: 20px auto;
+}
+
+
+/* -- Column Sizes -- */
+
+.one_fourth   { width:21.25%; }
+.one_third    { width:29.333%; }
+.one_half     { width:45.5%; }
+.two_third    { width:61.666%; }
+.one_fifth    { width:16.4%; }
+.one_sixth    { width:13.15%; }
+.one_seventh  { width:10.85%; }
+.one_eighth   { width: 9.125%; }
+.one_nineth   { width:7.78%; }
+.one_tenth    { width: 6.7%; }
+.one_eleventh { width: 5.82%; }
+.one_twelth   { width: 5.08%; }
+.three_fourth { width:69.75%; }
+.one_column   { width:94%; }
+.full_column  { width:100%; }
+
+/* -- Column Margin & Float-- */
+.one_half,.one_third,.two_third,
+.three_fourth,.one_fourth,.one_fifth,.one_sixth,.one_seventh,.one_column,
+.one_eighth,.one_nineth,.one_tenth,.one_eleventh, .one_twelth,.full_column {
+  margin-left:3%;
+  margin-top:1%;
+  float:left;
+}
+
+/* -- Clearfix -- */
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
