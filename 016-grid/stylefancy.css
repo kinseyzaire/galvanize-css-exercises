@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
 div {
-  color: #FFF;
+  color: #222;
   background: #222;
 }
 
@@ -12,8 +17,31 @@ p {
 }
 
 /* Code Under This Line */
+.wrapper {
+  width: 96%;
+  margin: 20px auto;
+}
 
-
+.a {
+  color: #333;
+  background: #333;
+}
+.b {
+  color: #444;
+  background: #444;
+}
+.c {
+  color: #555;
+  background: #555;
+}
+.d {
+  color: #666;
+  background: #666;
+}
+.e {
+  color: #777;
+  background: #777;
+}
 
 /* -- Column Sizes -- */
 
@@ -37,7 +65,7 @@ p {
 .one_half,.one_third,.two_third,
 .three_fourth,.one_fourth,.one_fifth,.one_sixth,.one_seventh,.one_column,
 .one_eighth,.one_nineth,.one_tenth,.one_eleventh, .one_twelth,.full_column {
-  margin-left:1.2%;
+  margin-left: 1.2%;
   margin-top:1%;
   float:left;
 }
